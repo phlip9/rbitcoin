@@ -1,14 +1,14 @@
 {
   "new_base": "73bb6e2e9222c28da9eebdce9aab17f5f1876e4c",
   "new_skip": 198,
-  "old_index": 21,
-  "old_name": "crates/rbitcoin-cli/src/lib.rs:92:14: replace == with != in parse_args",
+  "old_index": 290,
+  "old_name": "crates/rbitcoin-consensus/src/block/mod.rs:1017:9: replace ScriptCheckJob::try_new -> Result<Self, ConsensusError> with Ok(Default::default())",
   "new_cap_used": true,
   "run_id": "40273836399",
   "new_len": 316,
   "old_len": 30932,
   "new_remaining": 118,
-  "old_remaining": 30911,
-  "completed_new": 198,
-  "completed_old": 21
+  "old_remaining": 30663,
+  "completed_new": 0,
+  "completed_old": 269
 }
