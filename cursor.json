@@ -1,14 +1,14 @@
 {
-  "new_base": "73bb6e2e9222c28da9eebdce9aab17f5f1876e4c",
-  "new_skip": 334,
-  "old_index": 920,
-  "old_name": "crates/rbitcoin-consensus/src/script_pool.rs:152:12: delete ! in Wave::unclaimed_chunks",
-  "new_cap_used": true,
-  "run_id": "40456500224",
+  "new_base": "4fe38d468d12c22aa86b687bcbc460f4adbcfd4e",
+  "new_skip": 0,
+  "old_index": 1109,
+  "old_name": "crates/rbitcoin-consensus/src/signet.rs:319:24: replace > with >= in modified_merkle_root",
+  "new_cap_used": false,
+  "run_id": "40643197276",
   "new_len": 350,
   "old_len": 30915,
-  "new_remaining": 16,
-  "old_remaining": 30888,
-  "completed_new": 0,
-  "completed_old": 27
+  "new_remaining": 0,
+  "old_remaining": 30726,
+  "completed_new": 16,
+  "completed_old": 189
 }
