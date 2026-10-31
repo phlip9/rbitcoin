@@ -1,14 +1,14 @@
 {
   "new_base": "4fe38d468d12c22aa86b687bcbc460f4adbcfd4e",
   "new_skip": 0,
-  "old_index": 4093,
-  "old_name": "crates/rbitcoin-ibd/src/ibd/confirm/mod.rs:348:9: replace ConfirmFeed::stopped -> bool with false",
+  "old_index": 4409,
+  "old_name": "crates/rbitcoin-ibd/src/ibd/confirm/mod.rs:2430:32: replace != with == in spawn_confirm_engine",
   "new_cap_used": false,
   "run_id": "41176182978",
   "new_len": 0,
   "old_len": 31265,
   "new_remaining": 0,
-  "old_remaining": 30854,
+  "old_remaining": 30949,
   "completed_new": 0,
-  "completed_old": 411
+  "completed_old": 316
 }
