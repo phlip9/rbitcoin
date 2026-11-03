@@ -1,14 +1,14 @@
 {
   "new_base": "4fe38d468d12c22aa86b687bcbc460f4adbcfd4e",
   "new_skip": 0,
-  "old_index": 7088,
-  "old_name": "crates/rbitcoin-log/src/lib.rs:179:20: replace < with <= in civil_utc",
+  "old_index": 7401,
+  "old_name": "crates/rbitcoin-mempool/src/accept.rs:879:17: replace > with < in ActiveMempool::note_evicted_feerate",
   "new_cap_used": false,
   "run_id": "41595232303",
   "new_len": 0,
   "old_len": 31265,
   "new_remaining": 0,
-  "old_remaining": 30671,
+  "old_remaining": 30952,
   "completed_new": 0,
-  "completed_old": 594
+  "completed_old": 313
 }
