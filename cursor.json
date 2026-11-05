@@ -1,14 +1,14 @@
 {
   "new_base": "4fe38d468d12c22aa86b687bcbc460f4adbcfd4e",
   "new_skip": 0,
-  "old_index": 8237,
-  "old_name": "crates/rbitcoin-mempool/src/graph.rs:917:75: replace > with >= in TxGraph::linearize_delta",
+  "old_index": 8704,
+  "old_name": "crates/rbitcoin-mempool/src/store.rs:585:37: replace + with - in Mempool::migrate_to_current",
   "new_cap_used": false,
   "run_id": "41987196932",
   "new_len": 0,
   "old_len": 31265,
   "new_remaining": 0,
-  "old_remaining": 30429,
+  "old_remaining": 30798,
   "completed_new": 0,
-  "completed_old": 836
+  "completed_old": 467
 }
