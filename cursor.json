@@ -1,14 +1,14 @@
 {
   "new_base": "4fe38d468d12c22aa86b687bcbc460f4adbcfd4e",
   "new_skip": 0,
-  "old_index": 10439,
-  "old_name": "crates/rbitcoin-net/src/i2p_sam.rs:149:9: delete match arm NetError::Io(_) | NetError::Disconnected in stream_retry",
+  "old_index": 10822,
+  "old_name": "crates/rbitcoin-net/src/netaddr.rs:128:43: replace != with == in ipv6_embedded_bogon",
   "new_cap_used": false,
   "run_id": "42455915744",
   "new_len": 0,
   "old_len": 31265,
   "new_remaining": 0,
-  "old_remaining": 31060,
+  "old_remaining": 30882,
   "completed_new": 0,
-  "completed_old": 205
+  "completed_old": 383
 }
