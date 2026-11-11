@@ -1,0 +1,6 @@
+# 42977690405 1 41be5e45fdc27f3ff14b4b928c50878fdee5e3e6
+MISSED   crates/rbitcoin-cli/src/lib.rs:474:28: replace < with == in retry_connect in 74s build + 15s test
+MISSED   crates/rbitcoin-cli/src/lib.rs:474:28: replace < with > in retry_connect in 1s build + 15s test
+MISSED   crates/rbitcoin-cli/src/lib.rs:474:28: replace < with <= in retry_connect in 1s build + 15s test
+MISSED   crates/rbitcoin-cli/src/lib.rs:474:24: replace + with * in retry_connect in 1s build + 15s test
+MISSED   crates/rbitcoin-cli/src/lib.rs:750:27: replace < with <= in format_getinfo in 1s build + 15s test
