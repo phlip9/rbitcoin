@@ -1,14 +1,14 @@
 {
   "new_base": "4fe38d468d12c22aa86b687bcbc460f4adbcfd4e",
-  "new_skip": 307,
+  "new_skip": 405,
   "old_index": 12085,
   "old_name": "crates/rbitcoin-net/src/seeds.rs:43:51: replace | with ^ in required_seed_services",
   "new_cap_used": false,
   "run_id": "43177627651",
   "new_len": 5924,
   "old_len": 29516,
-  "new_remaining": 5617,
+  "new_remaining": 5519,
   "old_remaining": 29516,
-  "completed_new": 50,
+  "completed_new": 98,
   "completed_old": 0
 }

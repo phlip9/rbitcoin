@@ -4,3 +4,7 @@ MISSED   crates/rbitcoin-cli/src/lib.rs:474:28: replace < with > in retry_connec
 MISSED   crates/rbitcoin-cli/src/lib.rs:474:28: replace < with <= in retry_connect in 1s build + 15s test
 MISSED   crates/rbitcoin-cli/src/lib.rs:474:24: replace + with * in retry_connect in 1s build + 15s test
 MISSED   crates/rbitcoin-cli/src/lib.rs:750:27: replace < with <= in format_getinfo in 1s build + 15s test
+# 43177627651 2 41be5e45fdc27f3ff14b4b928c50878fdee5e3e6
+MISSED   crates/rbitcoin-consensus/src/script/mod.rs:66:12: delete ! in verify_job_all_inputs in 91s build + 125s test
+MISSED   crates/rbitcoin-consensus/src/script_pool.rs:575:37: replace || with && in park_if_still_idle in 90s build + 124s test
+MISSED   crates/rbitcoin-consensus/src/script_pool.rs:582:37: replace || with && in park_if_still_idle in 8s build + 124s test
