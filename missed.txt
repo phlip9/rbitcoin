@@ -8,3 +8,12 @@ MISSED   crates/rbitcoin-cli/src/lib.rs:750:27: replace < with <= in format_geti
 MISSED   crates/rbitcoin-consensus/src/script/mod.rs:66:12: delete ! in verify_job_all_inputs in 91s build + 125s test
 MISSED   crates/rbitcoin-consensus/src/script_pool.rs:575:37: replace || with && in park_if_still_idle in 90s build + 124s test
 MISSED   crates/rbitcoin-consensus/src/script_pool.rs:582:37: replace || with && in park_if_still_idle in 8s build + 124s test
+# 43385157717 1 41be5e45fdc27f3ff14b4b928c50878fdee5e3e6
+MISSED   crates/rbitcoin-consensus/src/sync.rs:35:5: replace lock -> loom::sync::MutexGuard<'_, T> with MutexGuard::from_iter([Default::default()]) in 117s build + 147s test
+MISSED   crates/rbitcoin-consensus/src/sync.rs:35:5: replace lock -> loom::sync::MutexGuard<'_, T> with MutexGuard::new(Default::default()) in 9s build + 145s test
+MISSED   crates/rbitcoin-consensus/src/sync.rs:35:5: replace lock -> loom::sync::MutexGuard<'_, T> with MutexGuard::from(Default::default()) in 9s build + 145s test
+MISSED   crates/rbitcoin-consensus/src/sync.rs:40:5: replace lock -> shuttle::sync::MutexGuard<'_, T> with MutexGuard::new() in 9s build + 145s test
+MISSED   crates/rbitcoin-consensus/src/sync.rs:40:5: replace lock -> shuttle::sync::MutexGuard<'_, T> with MutexGuard::from_iter([Default::default()]) in 9s build + 146s test
+MISSED   crates/rbitcoin-consensus/src/sync.rs:40:5: replace lock -> shuttle::sync::MutexGuard<'_, T> with MutexGuard::new(Default::default()) in 9s build + 147s test
+MISSED   crates/rbitcoin-consensus/src/sync.rs:40:5: replace lock -> shuttle::sync::MutexGuard<'_, T> with MutexGuard::from(Default::default()) in 9s build + 144s test
+MISSED   crates/rbitcoin-consensus/src/wire.rs:85:21: delete ! in scripts_parse in 9s build + 146s test
