@@ -85,3 +85,44 @@ MISSED   crates/rbitcoin-net/src/seeds.rs:900:21: replace || with && in AddrMan:
 MISSED   crates/rbitcoin-net/src/seeds.rs:946:28: replace - with + in AddrMan::take_dial_candidates in 3s build + 41s test
 MISSED   crates/rbitcoin-net/src/seeds.rs:964:34: replace || with && in AddrMan::take_outbound_offset_occupied in 3s build + 42s test
 MISSED   crates/rbitcoin-net/src/seeds.rs:975:42: replace % with / in AddrMan::take_outbound_offset_occupied in 4s build + 42s test
+# 43569285619 1 41be5e45fdc27f3ff14b4b928c50878fdee5e3e6
+MISSED   crates/rbitcoin-ibd/src/ibd/events/mod.rs:1040:12: delete ! in answer_probe in 123s build + 105s test
+MISSED   crates/rbitcoin-ibd/src/ibd/events/mod.rs:1570:24: replace && with || in apply_soft_wire_reject in 4s build + 105s test
+MISSED   crates/rbitcoin-ibd/src/ibd/events/mod.rs:1592:22: replace && with || in evict_off_path_suffix in 5s build + 106s test
+MISSED   crates/rbitcoin-ibd/src/ibd/events/mod.rs:1592:15: replace > with == in evict_off_path_suffix in 5s build + 105s test
+MISSED   crates/rbitcoin-ibd/src/ibd/events/mod.rs:1592:15: replace > with < in evict_off_path_suffix in 4s build + 106s test
+MISSED   crates/rbitcoin-ibd/src/ibd/events/mod.rs:1592:15: replace > with >= in evict_off_path_suffix in 4s build + 103s test
+MISSED   crates/rbitcoin-ibd/src/ibd/header_walk.rs:40:41: replace * with + in 107s build + 101s test
+MISSED   crates/rbitcoin-ibd/src/ibd/header_walk.rs:40:36: replace * with + in 4s build + 100s test
+MISSED   crates/rbitcoin-ibd/src/ibd/header_walk.rs:219:70: replace + with * in 4s build + 101s test
+MISSED   crates/rbitcoin-ibd/src/ibd/header_walk.rs:307:36: replace || with && in HeaderWalk::indexed_band_end in 4s build + 103s test
+MISSED   crates/rbitcoin-ibd/src/ibd/header_walk.rs:469:9: delete field height_wide from struct WalkTip expression in install_origin in 4s build + 101s test
+MISSED   crates/rbitcoin-ibd/src/ibd/header_walk.rs:520:23: replace > with >= in arm_walk_bounds in 4s build + 101s test
+MISSED   crates/rbitcoin-ibd/src/ibd/header_walk.rs:533:52: replace - with / in starting_mtp in 4s build + 101s test
+MISSED   crates/rbitcoin-ibd/src/ibd/header_walk.rs:697:33: replace > with < in settle_walk_peer in 4s build + 100s test
+MISSED   crates/rbitcoin-ibd/src/ibd/header_walk.rs:698:81: replace || with && in settle_walk_peer in 4s build + 103s test
+MISSED   crates/rbitcoin-ibd/src/ibd/header_walk.rs:701:40: replace == with != in settle_walk_peer in 4s build + 100s test
+MISSED   crates/rbitcoin-ibd/src/ibd/header_walk.rs:1372:34: replace <= with > in recompute_witness in 4s build + 101s test
+MISSED   crates/rbitcoin-ibd/src/ibd/header_walk.rs:1375:28: replace > with == in recompute_witness in 4s build + 101s test
+MISSED   crates/rbitcoin-ibd/src/ibd/header_walk.rs:1375:28: replace > with < in recompute_witness in 4s build + 101s test
+MISSED   crates/rbitcoin-ibd/src/ibd/header_walk.rs:1375:28: replace > with >= in recompute_witness in 4s build + 100s test
+MISSED   crates/rbitcoin-ibd/src/ibd/header_walk.rs:1383:35: replace == with != in peer_net in 4s build + 100s test
+MISSED   crates/rbitcoin-ibd/src/ibd/header_walk.rs:1551:9: delete field height_wide from struct WalkTip expression in tip_from_base in 4s build + 101s test
+MISSED   crates/rbitcoin-ibd/src/ibd/header_walk.rs:1651:34: replace < with == in promote_challenger in 4s build + 101s test
+MISSED   crates/rbitcoin-ibd/src/ibd/header_walk.rs:1651:34: replace < with > in promote_challenger in 4s build + 101s test
+MISSED   crates/rbitcoin-ibd/src/ibd/header_walk.rs:1651:34: replace < with <= in promote_challenger in 4s build + 104s test
+MISSED   crates/rbitcoin-ibd/src/ibd/header_walk.rs:1697:15: replace > with < in drop_queue_above in 4s build + 101s test
+MISSED   crates/rbitcoin-ibd/src/ibd/header_walk.rs:1697:27: delete ! in drop_queue_above in 4s build + 100s test
+MISSED   crates/rbitcoin-ibd/src/ibd/header_walk.rs:2001:30: replace <= with > in adopt_heavier in 4s build + 99s test
+MISSED   crates/rbitcoin-ibd/src/ibd/header_walk.rs:2349:22: replace && with || in confirmed_tip_above_anchor in 4s build + 101s test
+MISSED   crates/rbitcoin-ibd/src/ibd/header_walk.rs:2349:12: replace < with <= in confirmed_tip_above_anchor in 4s build + 101s test
+MISSED   crates/rbitcoin-ibd/src/ibd/header_walk.rs:2349:31: replace > with >= in confirmed_tip_above_anchor in 4s build + 101s test
+MISSED   crates/rbitcoin-ibd/src/ibd/header_walk.rs:2613:33: replace > with >= in over_length_at in 4s build + 101s test
+MISSED   crates/rbitcoin-ibd/src/ibd/header_walk.rs:2644:27: replace || with && in extend_tip in 4s build + 101s test
+MISSED   crates/rbitcoin-ibd/src/ibd/header_walk.rs:2661:27: replace || with && in extend_connected in 4s build + 101s test
+MISSED   crates/rbitcoin-ibd/src/ibd/header_walk.rs:2720:16: replace || with && in adopt_checkpoint_due in 4s build + 101s test
+MISSED   crates/rbitcoin-ibd/src/ibd/header_walk.rs:2732:26: replace - with + in adopt_checkpoint_due in 4s build + 100s test
+MISSED   crates/rbitcoin-ibd/src/ibd/header_walk.rs:2732:26: replace - with / in adopt_checkpoint_due in 4s build + 100s test
+MISSED   crates/rbitcoin-ibd/src/ibd/header_walk.rs:3093:45: replace && with || in send_getheaders in 4s build + 100s test
+MISSED   crates/rbitcoin-ibd/src/ibd/header_walk.rs:3147:66: replace > with >= in header_ask_locator in 4s build + 100s test
+MISSED   crates/rbitcoin-net/src/seeds.rs:975:37: replace + with * in AddrMan::take_outbound_offset_occupied in 4s build + 67s test
