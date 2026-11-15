@@ -1,14 +1,14 @@
 {
   "new_base": "4fe38d468d12c22aa86b687bcbc460f4adbcfd4e",
-  "new_skip": 1162,
-  "old_index": 12294,
-  "old_name": "crates/rbitcoin-net/src/seeds.rs:1005:51: replace && with || in AddrMan::load",
+  "new_skip": 1403,
+  "old_index": 12297,
+  "old_name": "crates/rbitcoin-net/src/seeds.rs:1066:23: replace && with || in AddrMan::load",
   "new_cap_used": true,
-  "run_id": "43569285619",
+  "run_id": "43689022935",
   "new_len": 5924,
   "old_len": 29516,
-  "new_remaining": 4762,
-  "old_remaining": 29507,
-  "completed_new": 263,
-  "completed_old": 9
+  "new_remaining": 4521,
+  "old_remaining": 29513,
+  "completed_new": 241,
+  "completed_old": 3
 }

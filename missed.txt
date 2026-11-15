@@ -126,3 +126,48 @@ MISSED   crates/rbitcoin-ibd/src/ibd/header_walk.rs:2732:26: replace - with / in
 MISSED   crates/rbitcoin-ibd/src/ibd/header_walk.rs:3093:45: replace && with || in send_getheaders in 4s build + 100s test
 MISSED   crates/rbitcoin-ibd/src/ibd/header_walk.rs:3147:66: replace > with >= in header_ask_locator in 4s build + 100s test
 MISSED   crates/rbitcoin-net/src/seeds.rs:975:37: replace + with * in AddrMan::take_outbound_offset_occupied in 4s build + 67s test
+# 43689022935 1 41be5e45fdc27f3ff14b4b928c50878fdee5e3e6
+MISSED   crates/rbitcoin-ibd/src/ibd/header_walk.rs:469:9: delete field height_wide from struct WalkTip expression in install_origin in 2s build + 36s test
+MISSED   crates/rbitcoin-ibd/src/ibd/header_walk.rs:1551:9: delete field height_wide from struct WalkTip expression in tip_from_base in 2s build + 36s test
+MISSED   crates/rbitcoin-ibd/src/ibd/header_walk.rs:3800:56: replace > with >= in settle_lead_after_confirmed_rewind in 109s build + 101s test
+MISSED   crates/rbitcoin-ibd/src/ibd/header_walk.rs:3806:82: replace > with == in settle_lead_after_confirmed_rewind in 4s build + 101s test
+MISSED   crates/rbitcoin-ibd/src/ibd/header_walk.rs:3806:82: replace > with < in settle_lead_after_confirmed_rewind in 4s build + 100s test
+MISSED   crates/rbitcoin-ibd/src/ibd/header_walk.rs:3806:82: replace > with >= in settle_lead_after_confirmed_rewind in 4s build + 101s test
+MISSED   crates/rbitcoin-ibd/src/ibd/header_walk.rs:4070:15: delete ! in restore_adopt in 4s build + 101s test
+MISSED   crates/rbitcoin-ibd/src/ibd/header_walk.rs:4301:56: replace || with && in note_unproven_class_a in 4s build + 101s test
+MISSED   crates/rbitcoin-ibd/src/ibd/header_walk.rs:4301:31: replace || with && in note_unproven_class_a in 4s build + 101s test
+MISSED   crates/rbitcoin-ibd/src/ibd/header_walk.rs:4308:15: replace > with >= in note_unproven_class_a in 4s build + 100s test
+MISSED   crates/rbitcoin-ibd/src/ibd/header_walk.rs:4335:9: replace || with && in note_header_witness in 4s build + 100s test
+MISSED   crates/rbitcoin-ibd/src/ibd/header_walk.rs:4334:26: replace < with > in note_header_witness in 4s build + 100s test
+MISSED   crates/rbitcoin-ibd/src/ibd/header_walk.rs:4369:50: replace > with == in note_header_witness in 4s build + 101s test
+MISSED   crates/rbitcoin-ibd/src/ibd/header_walk.rs:4369:50: replace > with < in note_header_witness in 4s build + 101s test
+MISSED   crates/rbitcoin-ibd/src/ibd/header_walk.rs:4369:50: replace > with >= in note_header_witness in 4s build + 100s test
+MISSED   crates/rbitcoin-ibd/src/ibd/header_walk.rs:4390:19: delete ! in leaving_unproved_lead in 4s build + 100s test
+MISSED   crates/rbitcoin-ibd/src/ibd/peer_io.rs:597:5: replace wait_past_mono_sentinel with () in 110s build + 101s test
+MISSED   crates/rbitcoin-ibd/src/ibd/peer_io.rs:597:46: replace + with - in wait_past_mono_sentinel in 4s build + 101s test
+MISSED   crates/rbitcoin-ibd/src/ibd/reorg.rs:596:36: replace > with >= in prepare_header_rewind in 112s build + 101s test
+MISSED   crates/rbitcoin-ibd/src/ibd/state.rs:426:33: replace > with >= in IbdWorkState::clear_path_above in 109s build + 102s test
+MISSED   crates/rbitcoin-ibd/src/ibd/state.rs:494:50: replace || with && in IbdWorkState::hygiene in 4s build + 100s test
+MISSED   crates/rbitcoin-ibd/src/ibd/state.rs:514:37: replace > with >= in IbdWorkState::deep_hygiene in 4s build + 100s test
+MISSED   crates/rbitcoin-ibd/src/ibd/state.rs:539:22: replace > with >= in IbdWorkState::deep_hygiene in 4s build + 101s test
+MISSED   crates/rbitcoin-ibd/src/ibd/state.rs:549:21: replace || with && in IbdWorkState::deep_hygiene in 4s build + 100s test
+MISSED   crates/rbitcoin-ibd/src/ibd/state.rs:555:21: replace || with && in IbdWorkState::deep_hygiene in 4s build + 101s test
+MISSED   crates/rbitcoin-ibd/src/ibd/state.rs:554:21: replace || with && in IbdWorkState::deep_hygiene in 4s build + 101s test
+MISSED   crates/rbitcoin-ibd/src/ibd/state.rs:602:9: replace HeightIndex::is_empty -> bool with true in 4s build + 100s test
+MISSED   crates/rbitcoin-ibd/src/ibd/state.rs:623:34: replace - with + in HeightIndex::insert in 4s build + 101s test
+MISSED   crates/rbitcoin-ibd/src/ibd/state.rs:623:34: replace - with / in HeightIndex::insert in 4s build + 100s test
+MISSED   crates/rbitcoin-ibd/src/ibd/state.rs:627:27: replace += with -= in HeightIndex::insert in 4s build + 102s test
+MISSED   crates/rbitcoin-ibd/src/ibd/state.rs:644:23: replace -= with += in HeightIndex::remove in 4s build + 100s test
+MISSED   crates/rbitcoin-ibd/src/ibd/state.rs:644:23: replace -= with /= in HeightIndex::remove in 4s build + 101s test
+MISSED   crates/rbitcoin-ibd/src/ibd/state.rs:664:9: replace HeightIndex::values -> impl Iterator<Item =&BlockHash> with ::std::iter::empty() in 5s build + 100s test
+MISSED   crates/rbitcoin-ibd/src/ibd/state.rs:689:31: replace -= with += in HeightIndex::retain in 5s build + 101s test
+MISSED   crates/rbitcoin-ibd/src/ibd/state.rs:689:31: replace -= with /= in HeightIndex::retain in 4s build + 101s test
+MISSED   crates/rbitcoin-ibd/src/ibd/state.rs:709:57: replace > with >= in HeightIndex::retain_outside in 4s build + 100s test
+MISSED   crates/rbitcoin-ibd/src/ibd/state.rs:711:81: replace - with + in HeightIndex::retain_outside in 4s build + 100s test
+MISSED   crates/rbitcoin-ibd/src/ibd/state.rs:711:81: replace - with / in HeightIndex::retain_outside in 4s build + 101s test
+MISSED   crates/rbitcoin-ibd/src/ibd/state.rs:717:26: replace > with == in HeightIndex::retain_outside in 4s build + 101s test
+MISSED   crates/rbitcoin-ibd/src/ibd/state.rs:717:26: replace > with >= in HeightIndex::retain_outside in 4s build + 101s test
+MISSED   crates/rbitcoin-ibd/src/ibd/state.rs:722:29: replace > with >= in HeightIndex::retain_outside in 4s build + 100s test
+MISSED   crates/rbitcoin-ibd/src/ibd/state.rs:725:26: replace - with + in HeightIndex::retain_outside in 4s build + 102s test
+MISSED   crates/rbitcoin-ibd/src/ibd/state.rs:727:24: replace < with <= in HeightIndex::retain_outside in 4s build + 100s test
+MISSED   crates/rbitcoin-ibd/src/ibd/state.rs:754:21: replace > with == in HeightIndex::shrink_ends in 6s build + 100s test
