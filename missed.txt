@@ -218,3 +218,35 @@ MISSED   crates/rbitcoin-net/src/tx_relay.rs:472:13: delete match arm 2 in Query
 MISSED   crates/rbitcoin-net/src/tx_relay.rs:656:45: replace || with && in is_hard_recent_reject in 3s build + 40s test
 MISSED   crates/rbitcoin-net/src/tx_relay.rs:819:50: replace * with + in 3s build + 39s test
 MISSED   crates/rbitcoin-net/src/tx_relay.rs:819:50: replace * with / in 3s build + 39s test
+# 43823043329 1 41be5e45fdc27f3ff14b4b928c50878fdee5e3e6
+MISSED   crates/rbitcoin-mempool/src/accept.rs:548:16: replace > with >= in SiblingEviction::for_package in 114s build + 137s test
+MISSED   crates/rbitcoin-mempool/src/accept.rs:1667:18: replace > with >= in ActiveMempool::check_truc in 7s build + 138s test
+MISSED   crates/rbitcoin-mempool/src/accept.rs:1677:47: replace > with >= in ActiveMempool::check_truc in 8s build + 138s test
+MISSED   crates/rbitcoin-mempool/src/accept.rs:1696:52: replace && with || in ActiveMempool::check_truc in 8s build + 139s test
+MISSED   crates/rbitcoin-mempool/src/accept.rs:2211:79: replace && with || in ActiveMempool::lift_dust_spender in 8s build + 138s test
+MISSED   crates/rbitcoin-mempool/src/accept.rs:2211:38: replace && with || in ActiveMempool::lift_dust_spender in 8s build + 137s test
+MISSED   crates/rbitcoin-mempool/src/accept.rs:2681:55: replace match guard policy::dust_vouts(tx).next().is_some() with true in ActiveMempool::accept_failure_record in 8s build + 137s test
+MISSED   crates/rbitcoin-mempool/src/graph.rs:1019:37: replace != with == in TxGraph::mining_chunks_for_delta in 113s build + 137s test
+MISSED   crates/rbitcoin-mempool/src/linearize.rs:111:57: replace & with | in TxSet::intersection in 113s build + 137s test
+MISSED   crates/rbitcoin-mempool/src/linearize.rs:119:9: replace TxSet::is_empty -> bool with false in 8s build + 137s test
+MISSED   crates/rbitcoin-mempool/src/linearize.rs:139:25: replace * with / in TxSet::iter in 8s build + 137s test
+MISSED   crates/rbitcoin-mempool/src/linearize.rs:228:21: delete match arm Ordering::Greater in DepGraph::linearize in 8s build + 138s test
+MISSED   crates/rbitcoin-mempool/src/linearize.rs:262:40: replace + with * in DepGraph::output_order in 8s build + 136s test
+MISSED   crates/rbitcoin-mempool/src/linearize.rs:281:25: delete match arm Ordering::Greater in DepGraph::output_order in 8s build + 136s test
+MISSED   crates/rbitcoin-mempool/src/linearize.rs:297:21: delete match arm Ordering::Greater in DepGraph::output_order in 8s build + 138s test
+MISSED   crates/rbitcoin-mempool/src/linearize.rs:314:28: replace == with != in DepGraph::post_linearize in 8s build + 138s test
+MISSED   crates/rbitcoin-net/src/asmap.rs:63:9: replace AsMap::is_empty -> bool with true in 104s build + 70s test
+MISSED   crates/rbitcoin-net/src/asmap.rs:63:9: replace AsMap::is_empty -> bool with false in 6s build + 70s test
+MISSED   crates/rbitcoin-net/src/chain.rs:915:33: replace | with ^ in ChainHub::note_block_assembled in 7s build + 71s test
+MISSED   crates/rbitcoin-net/src/chain.rs:1503:21: replace || with && in ChainHub::chaintips in 7s build + 70s test
+MISSED   crates/rbitcoin-net/src/chain.rs:1504:24: delete ! in ChainHub::chaintips in 6s build + 70s test
+MISSED   crates/rbitcoin-net/src/chain.rs:2222:62: replace || with && in ChainHub::min_diff_walk_bits in 7s build + 70s test
+MISSED   crates/rbitcoin-net/src/chain.rs:2697:20: replace > with == in ChainHub::generate_paying_async in 7s build + 70s test
+MISSED   crates/rbitcoin-net/src/chain.rs:2697:20: replace > with >= in ChainHub::generate_paying_async in 7s build + 69s test
+MISSED   crates/rbitcoin-net/src/chain.rs:2722:34: replace == with != in ChainHub::generate_paying_async in 7s build + 70s test
+MISSED   crates/rbitcoin-net/src/chain.rs:3074:28: replace && with || in ChainHub::invalidate_block_inner in 6s build + 70s test
+MISSED   crates/rbitcoin-net/src/chain.rs:3827:12: delete ! in ChainHub::finish_branch_reorg in 6s build + 70s test
+MISSED   crates/rbitcoin-net/src/chain.rs:4668:9: replace ChainHub::reset_side_branch_walks with () in 7s build + 71s test
+MISSED   crates/rbitcoin-net/src/chain.rs:4673:9: replace ChainHub::side_branch_walks -> u64 with 1 in 7s build + 71s test
+MISSED   crates/rbitcoin-net/src/chain.rs:4688:9: replace ChainHub::take_min_diff_walk_steps -> u64 with 0 in 4s build + 66s test
+MISSED   crates/rbitcoin-net/src/chain.rs:4688:9: replace ChainHub::take_min_diff_walk_steps -> u64 with 1 in 4s build + 67s test
