@@ -250,3 +250,47 @@ MISSED   crates/rbitcoin-net/src/chain.rs:4668:9: replace ChainHub::reset_side_b
 MISSED   crates/rbitcoin-net/src/chain.rs:4673:9: replace ChainHub::side_branch_walks -> u64 with 1 in 7s build + 71s test
 MISSED   crates/rbitcoin-net/src/chain.rs:4688:9: replace ChainHub::take_min_diff_walk_steps -> u64 with 0 in 4s build + 66s test
 MISSED   crates/rbitcoin-net/src/chain.rs:4688:9: replace ChainHub::take_min_diff_walk_steps -> u64 with 1 in 4s build + 67s test
+# 43823043329 2 41be5e45fdc27f3ff14b4b928c50878fdee5e3e6
+MISSED   crates/rbitcoin-net/src/tx_relay.rs:1778:14: replace > with == in MempoolHub::note_getdata_tx in 83s build + 62s test
+MISSED   crates/rbitcoin-net/src/tx_relay.rs:1856:23: replace > with == in MempoolHub::push_recent in 6s build + 62s test
+MISSED   crates/rbitcoin-net/src/tx_relay.rs:1856:23: replace > with >= in MempoolHub::push_recent in 6s build + 62s test
+MISSED   crates/rbitcoin-net/src/tx_relay.rs:1870:9: replace MempoolHub::compact -> Result<(u32, usize), String> with Ok((0, 0)) in 8s build + 62s test
+MISSED   crates/rbitcoin-net/src/tx_relay.rs:1870:9: replace MempoolHub::compact -> Result<(u32, usize), String> with Ok((0, 1)) in 6s build + 62s test
+MISSED   crates/rbitcoin-net/src/tx_relay.rs:1870:9: replace MempoolHub::compact -> Result<(u32, usize), String> with Ok((1, 0)) in 6s build + 62s test
+MISSED   crates/rbitcoin-net/src/tx_relay.rs:1870:9: replace MempoolHub::compact -> Result<(u32, usize), String> with Ok((1, 1)) in 6s build + 61s test
+MISSED   crates/rbitcoin-net/src/tx_relay.rs:1983:9: replace MempoolHub::immediate_relay -> bool with true in 8s build + 62s test
+MISSED   crates/rbitcoin-net/src/tx_relay.rs:1983:9: replace MempoolHub::immediate_relay -> bool with false in 6s build + 62s test
+MISSED   crates/rbitcoin-net/src/tx_relay.rs:1997:9: replace MempoolHub::expiry_hours -> u64 with 0 in 6s build + 62s test
+MISSED   crates/rbitcoin-net/src/tx_relay.rs:1997:9: replace MempoolHub::expiry_hours -> u64 with 1 in 6s build + 61s test
+MISSED   crates/rbitcoin-net/src/tx_relay.rs:1997:50: replace / with % in MempoolHub::expiry_hours in 6s build + 61s test
+MISSED   crates/rbitcoin-net/src/tx_relay.rs:1997:50: replace / with * in MempoolHub::expiry_hours in 6s build + 61s test
+MISSED   crates/rbitcoin-net/src/tx_relay.rs:2022:21: replace || with && in MempoolHub::expire_stale_inner in 6s build + 62s test
+MISSED   crates/rbitcoin-net/src/tx_relay.rs:2087:14: replace > with == in MempoolHub::remove_expired_roots in 6s build + 61s test
+MISSED   crates/rbitcoin-net/src/tx_relay.rs:2110:9: replace MempoolHub::notify_inv_flush with () in 6s build + 62s test
+MISSED   crates/rbitcoin-net/src/tx_relay.rs:2139:9: replace MempoolHub::list_live_wtxids -> Vec<(Txid, Wtxid)> with vec![] in 9s build + 62s test
+MISSED   crates/rbitcoin-net/src/tx_relay.rs:2313:50: delete ! in MempoolHub::chain_create_fks in 9s build + 62s test
+MISSED   crates/rbitcoin-net/src/tx_relay.rs:2344:21: replace || with && in MempoolHub::chain_create_fks in 6s build + 61s test
+MISSED   crates/rbitcoin-net/src/tx_relay.rs:2344:52: replace && with || in MempoolHub::chain_create_fks in 6s build + 62s test
+MISSED   crates/rbitcoin-net/src/tx_relay.rs:2344:55: delete ! in MempoolHub::chain_create_fks in 6s build + 62s test
+MISSED   crates/rbitcoin-net/src/tx_relay.rs:2420:9: replace MempoolHub::generation -> u64 with 0 in 6s build + 61s test
+MISSED   crates/rbitcoin-net/src/tx_relay.rs:2420:9: replace MempoolHub::generation -> u64 with 1 in 6s build + 62s test
+MISSED   crates/rbitcoin-net/src/tx_relay.rs:2431:9: replace MempoolHub::persist_due -> Result<(), String> with Ok(()) in 9s build + 62s test
+MISSED   crates/rbitcoin-net/src/tx_relay.rs:2593:40: replace && with || in MempoolHub::chain_tip_ctx in 8s build + 62s test
+MISSED   crates/rbitcoin-net/src/tx_relay.rs:3429:17: replace != with == in MempoolHub::lifted_ready in 82s build + 62s test
+MISSED   crates/rbitcoin-net/src/tx_relay.rs:4981:20: delete ! in MempoolHub::note_accept_failure in 6s build + 55s test
+MISSED   crates/rbitcoin-net/src/tx_relay.rs:5137:22: replace / with % in MempoolHub::index_accepted_package in 4s build + 55s test
+MISSED   crates/rbitcoin-net/src/tx_relay.rs:5137:22: replace / with * in MempoolHub::index_accepted_package in 4s build + 55s test
+MISSED   crates/rbitcoin-net/src/tx_relay.rs:5239:20: replace > with == in MempoolHub::commit_generated_txids in 4s build + 56s test
+MISSED   crates/rbitcoin-net/src/tx_relay.rs:5364:11: replace + with * in MempoolHub::remove_for_block_spent in 4s build + 55s test
+MISSED   crates/rbitcoin-net/src/tx_relay.rs:5374:9: replace MempoolHub::orphan_stats -> (usize, u64) with (0, 0) in 6s build + 56s test
+MISSED   crates/rbitcoin-net/src/tx_relay.rs:5374:9: replace MempoolHub::orphan_stats -> (usize, u64) with (0, 1) in 4s build + 55s test
+MISSED   crates/rbitcoin-net/src/tx_relay.rs:5374:9: replace MempoolHub::orphan_stats -> (usize, u64) with (1, 0) in 4s build + 55s test
+MISSED   crates/rbitcoin-net/src/tx_relay.rs:5374:9: replace MempoolHub::orphan_stats -> (usize, u64) with (1, 1) in 4s build + 55s test
+MISSED   crates/rbitcoin-net/src/tx_relay.rs:5423:46: replace && with || in MempoolHub::orphan_write in 4s build + 55s test
+MISSED   crates/rbitcoin-net/src/tx_relay.rs:5423:49: delete ! in MempoolHub::orphan_write in 4s build + 56s test
+MISSED   crates/rbitcoin-net/src/tx_relay.rs:5437:42: replace == with != in MempoolHub::parent_already_have in 4s build + 56s test
+MISSED   crates/rbitcoin-net/src/tx_relay.rs:5492:13: replace + with * in MempoolHub::schedule_orphan_parents in 4s build + 55s test
+MISSED   crates/rbitcoin-net/src/tx_relay.rs:5498:25: delete ! in MempoolHub::schedule_orphan_parents in 4s build + 55s test
+MISSED   crates/rbitcoin-net/src/tx_relay.rs:5905:9: replace MempoolHub::list_live -> Vec<(Txid, u64, u64, Transaction)> with vec![] in 8s build + 55s test
+MISSED   crates/rbitcoin-net/src/tx_relay.rs:5920:9: replace MempoolHub::max_weight -> u64 with 0 in 8s build + 56s test
+MISSED   crates/rbitcoin-net/src/tx_relay.rs:5920:9: replace MempoolHub::max_weight -> u64 with 1 in 4s build + 55s test
