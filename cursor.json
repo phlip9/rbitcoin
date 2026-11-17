@@ -1,14 +1,14 @@
 {
   "new_base": "4fe38d468d12c22aa86b687bcbc460f4adbcfd4e",
   "new_skip": 1869,
-  "old_index": 13267,
-  "old_name": "crates/rbitcoin-net/src/tx_relay.rs:7040:9: replace MempoolHub::fee_histogram -> Vec<(u64, u64)> with vec![(0, 1)]",
+  "old_index": 13565,
+  "old_name": "crates/rbitcoin-net/src/header_report.rs:474:31: replace <= with > in ChainHub::check_ibd_header_proof",
   "new_cap_used": true,
   "run_id": "44047486245",
   "new_len": 5924,
   "old_len": 29516,
   "new_remaining": 4055,
-  "old_remaining": 29260,
-  "completed_new": 83,
-  "completed_old": 256
+  "old_remaining": 29218,
+  "completed_new": 0,
+  "completed_old": 298
 }

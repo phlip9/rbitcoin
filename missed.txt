@@ -318,3 +318,23 @@ MISSED   crates/rbitcoin-net/src/tx_relay.rs:6247:40: replace && with || in Memp
 MISSED   crates/rbitcoin-net/src/tx_relay.rs:6998:29: replace == with != in MempoolHub::scripthash_unconfirmed_delta in 6s build + 56s test
 MISSED   crates/rbitcoin-net/src/tx_relay.rs:7010:20: delete ! in MempoolHub::scripthash_unconfirmed_delta in 4s build + 56s test
 MISSED   crates/rbitcoin-net/src/tx_relay.rs:7022:45: replace == with != in MempoolHub::scripthash_unconfirmed_delta in 4s build + 56s test
+# 44047486245 2 41be5e45fdc27f3ff14b4b928c50878fdee5e3e6
+MISSED   crates/rbitcoin-net/src/tx_relay.rs:7124:25: replace > with >= in MempoolHub::push_confirm_memory in 7s build + 66s test
+MISSED   crates/rbitcoin-net/src/v2.rs:381:37: replace > with >= in V2SessionReader<R>::read_packet in 88s build + 62s test
+MISSED   crates/rbitcoin-net/src/v2.rs:565:44: replace == with != in command_from_12 in 7s build + 64s test
+MISSED   crates/rbitcoin-net/src/v2.rs:582:43: replace match guard gh.locator_hashes.len() > MAX_LOCATOR_SZ with false in encode_v2_contents in 7s build + 63s test
+MISSED   crates/rbitcoin-net/src/v2.rs:585:42: replace match guard gb.locator_hashes.len() > MAX_LOCATOR_SZ with false in encode_v2_contents in 7s build + 64s test
+MISSED   crates/rbitcoin-net/src/v2.rs:575:24: replace > with == in encode_v2_contents in 7s build + 63s test
+MISSED   crates/rbitcoin-net/src/v2.rs:575:24: replace > with >= in encode_v2_contents in 6s build + 64s test
+MISSED   crates/rbitcoin-net/src/v2.rs:582:67: replace > with == in encode_v2_contents in 7s build + 66s test
+MISSED   crates/rbitcoin-net/src/v2.rs:582:67: replace > with >= in encode_v2_contents in 7s build + 66s test
+MISSED   crates/rbitcoin-net/src/v2.rs:585:66: replace > with == in encode_v2_contents in 7s build + 64s test
+MISSED   crates/rbitcoin-net/src/v2.rs:585:66: replace > with >= in encode_v2_contents in 7s build + 64s test
+MISSED   crates/rbitcoin-net/src/v2.rs:592:9: delete match arm NetworkMessage::Unknown{command, ..} in encode_v2_contents in 11s build + 65s test
+MISSED   crates/rbitcoin-net/src/v2.rs:596:19: replace > with == in encode_v2_contents in 11s build + 65s test
+MISSED   crates/rbitcoin-net/src/v2.rs:596:19: replace > with >= in encode_v2_contents in 6s build + 64s test
+MISSED   crates/rbitcoin-net/src/v2.rs:672:22: replace > with == in framed_payload in 7s build + 64s test
+MISSED   crates/rbitcoin-net/src/v2.rs:672:22: replace > with >= in framed_payload in 7s build + 64s test
+MISSED   crates/rbitcoin-net/src/v2.rs:858:24: replace && with || in bip324_halves in 7s build + 64s test
+MISSED   crates/rbitcoin-net/src/versionbits_warn.rs:89:42: replace || with && in UnknownBitsScan::advance in 90s build + 64s test
+MISSED   crates/rbitcoin-net/src/header_report.rs:298:12: delete ! in ChainHub::note_header_tip in 4s build + 68s test
