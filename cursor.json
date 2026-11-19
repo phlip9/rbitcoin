@@ -1,14 +1,14 @@
 {
   "new_base": "4fe38d468d12c22aa86b687bcbc460f4adbcfd4e",
-  "new_skip": 2118,
-  "old_index": 14132,
-  "old_name": "crates/rbitcoin-node/src/lock.rs:28:5: replace lock_busy_msg -> String with String::new()",
+  "new_skip": 2460,
+  "old_index": 14175,
+  "old_name": "crates/rbitcoin-node/src/run.rs:927:51: replace < with <= in run_p2p",
   "new_cap_used": true,
-  "run_id": "44262973337",
+  "run_id": "44483667459",
   "new_len": 5924,
   "old_len": 29516,
-  "new_remaining": 3806,
-  "old_remaining": 28996,
-  "completed_new": 0,
-  "completed_old": 520
+  "new_remaining": 3464,
+  "old_remaining": 29473,
+  "completed_new": 342,
+  "completed_old": 43
 }
