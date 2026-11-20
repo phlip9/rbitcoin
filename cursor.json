@@ -1,14 +1,14 @@
 {
   "new_base": "4fe38d468d12c22aa86b687bcbc460f4adbcfd4e",
-  "new_skip": 2518,
-  "old_index": 15329,
-  "old_name": "crates/rbitcoin-query/src/lib.rs:2738:9: replace Query::header_tx_fks -> Result<Option<Vec<Fk>>, QueryError> with Ok(Some(vec![Default::default()]))",
-  "new_cap_used": false,
+  "new_skip": 2673,
+  "old_index": 15650,
+  "old_name": "crates/rbitcoin-query/src/archive.rs:1117:27: replace != with == in stamp_txstat_rows",
+  "new_cap_used": true,
   "run_id": "44697624419",
   "new_len": 5924,
   "old_len": 29516,
-  "new_remaining": 3406,
-  "old_remaining": 29516,
-  "completed_new": 58,
-  "completed_old": 0
+  "new_remaining": 3251,
+  "old_remaining": 29195,
+  "completed_new": 155,
+  "completed_old": 321
 }
