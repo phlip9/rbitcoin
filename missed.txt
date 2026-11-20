@@ -644,3 +644,6 @@ MISSED   crates/rbitcoin-query/src/lib.rs:2649:9: replace Query::published_owned
 MISSED   crates/rbitcoin-query/src/lib.rs:2659:9: replace Query::scripthash_entry_count -> u64 with 0 in 2s build + 5s test
 MISSED   crates/rbitcoin-query/src/lib.rs:2659:9: replace Query::scripthash_entry_count -> u64 with 1 in 1s build + 5s test
 MISSED   crates/rbitcoin-query/src/lib.rs:2703:9: replace Query::fence_tip_height -> Option<u32> with Some(0) in 2s build + 5s test
+# 44697624419 1 41be5e45fdc27f3ff14b4b928c50878fdee5e3e6
+MISSED   crates/rbitcoin-net/src/peers.rs:2867:46: replace || with && in PeerHub::try_start_headers_sync in 8s build + 63s test
+MISSED   crates/rbitcoin-net/src/peers.rs:4217:29: replace == with != in PeerHub::full_outbound_count in 6s build + 62s test

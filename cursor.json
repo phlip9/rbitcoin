@@ -1,14 +1,14 @@
 {
   "new_base": "4fe38d468d12c22aa86b687bcbc460f4adbcfd4e",
-  "new_skip": 2460,
+  "new_skip": 2518,
   "old_index": 15329,
   "old_name": "crates/rbitcoin-query/src/lib.rs:2738:9: replace Query::header_tx_fks -> Result<Option<Vec<Fk>>, QueryError> with Ok(Some(vec![Default::default()]))",
-  "new_cap_used": true,
-  "run_id": "44483667459",
+  "new_cap_used": false,
+  "run_id": "44697624419",
   "new_len": 5924,
   "old_len": 29516,
-  "new_remaining": 3464,
-  "old_remaining": 28362,
-  "completed_new": 0,
-  "completed_old": 1154
+  "new_remaining": 3406,
+  "old_remaining": 29516,
+  "completed_new": 58,
+  "completed_old": 0
 }
