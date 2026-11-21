@@ -1,14 +1,14 @@
 {
   "new_base": "4fe38d468d12c22aa86b687bcbc460f4adbcfd4e",
-  "new_skip": 2673,
-  "old_index": 15650,
-  "old_name": "crates/rbitcoin-query/src/archive.rs:1117:27: replace != with == in stamp_txstat_rows",
+  "new_skip": 2993,
+  "old_index": 16018,
+  "old_name": "crates/rbitcoin-query/src/catchup.rs:29:9: replace IndexMode::is_direct -> bool with true",
   "new_cap_used": true,
-  "run_id": "44697624419",
+  "run_id": "44881570119",
   "new_len": 5924,
   "old_len": 29516,
-  "new_remaining": 3251,
-  "old_remaining": 29195,
-  "completed_new": 155,
-  "completed_old": 321
+  "new_remaining": 2931,
+  "old_remaining": 29148,
+  "completed_new": 320,
+  "completed_old": 368
 }
