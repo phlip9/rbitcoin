@@ -1,14 +1,14 @@
 {
   "new_base": "4fe38d468d12c22aa86b687bcbc460f4adbcfd4e",
   "new_skip": 3180,
-  "old_index": 16833,
-  "old_name": "crates/rbitcoin-query/src/scripthash.rs:1354:55: replace < with == in Query::newest_create_window",
+  "old_index": 17718,
+  "old_name": "crates/rbitcoin-query/src/confirm_error.rs:16:9: replace <impl fmt::Display for ConfirmError>::fmt -> fmt::Result with Ok(Default::default())",
   "new_cap_used": true,
   "run_id": "44998442705",
   "new_len": 5924,
   "old_len": 29516,
   "new_remaining": 2744,
-  "old_remaining": 29153,
-  "completed_new": 187,
-  "completed_old": 363
+  "old_remaining": 28631,
+  "completed_new": 0,
+  "completed_old": 885
 }
