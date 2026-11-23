@@ -1,14 +1,14 @@
 {
   "new_base": "4fe38d468d12c22aa86b687bcbc460f4adbcfd4e",
   "new_skip": 3351,
-  "old_index": 16414,
-  "old_name": "crates/rbitcoin-query/src/milestone_gate.rs:9:5: replace skips_on_query -> bool with true",
+  "old_index": 17691,
+  "old_name": "crates/rbitcoin-rpc/src/methods/mempool.rs:1315:5: replace testmempoolaccept_package_precheck -> Option<Value> with Some(Default::default())",
   "new_cap_used": true,
   "run_id": "45137368254",
   "new_len": 11813,
   "old_len": 27112,
   "new_remaining": 8462,
-  "old_remaining": 26843,
-  "completed_new": 171,
-  "completed_old": 269
+  "old_remaining": 25835,
+  "completed_new": 0,
+  "completed_old": 1277
 }
