@@ -1,14 +1,14 @@
 {
   "new_base": "4fe38d468d12c22aa86b687bcbc460f4adbcfd4e",
-  "new_skip": 3180,
-  "old_index": 17718,
-  "old_name": "crates/rbitcoin-query/src/confirm_error.rs:16:9: replace <impl fmt::Display for ConfirmError>::fmt -> fmt::Result with Ok(Default::default())",
+  "new_skip": 3351,
+  "old_index": 16414,
+  "old_name": "crates/rbitcoin-query/src/milestone_gate.rs:9:5: replace skips_on_query -> bool with true",
   "new_cap_used": true,
-  "run_id": "44998442705",
-  "new_len": 5924,
-  "old_len": 29516,
-  "new_remaining": 2744,
-  "old_remaining": 28631,
-  "completed_new": 0,
-  "completed_old": 885
+  "run_id": "45137368254",
+  "new_len": 11813,
+  "old_len": 27112,
+  "new_remaining": 8462,
+  "old_remaining": 26843,
+  "completed_new": 171,
+  "completed_old": 269
 }

@@ -995,3 +995,26 @@ MISSED   crates/rbitcoin-query/src/block_pipeline.rs:1460:40: replace || with &&
 MISSED   crates/rbitcoin-query/src/block_pipeline.rs:1489:19: replace < with <= in EarlierIndex::earlier_than in 9s build + 120s test
 MISSED   crates/rbitcoin-query/src/block_pipeline.rs:1544:40: replace || with && in resolve_prevout in 1s build + 5s test
 MISSED   crates/rbitcoin-query/src/block_pipeline.rs:1544:43: delete ! in resolve_prevout in 2s build + 5s test
+# 45137368254 1 c616c429805e4b918ec2f038fef9e0b5dcae89f2
+MISSED   crates/rbitcoin-net/src/chain.rs:5057:9: replace ChainHub::take_tip_wtx_scans -> u64 with 1 in 108s build + 60s test
+MISSED   crates/rbitcoin-net/src/eviction.rs:113:35: replace > with >= in newest_in_largest_group in 111s build + 59s test
+MISSED   crates/rbitcoin-net/src/eviction.rs:115:25: replace && with || in newest_in_largest_group in 7s build + 61s test
+MISSED   crates/rbitcoin-net/src/eviction.rs:114:40: replace == with != in newest_in_largest_group in 7s build + 60s test
+MISSED   crates/rbitcoin-net/src/eviction.rs:115:69: replace != with == in newest_in_largest_group in 7s build + 60s test
+MISSED   crates/rbitcoin-net/src/eviction.rs:132:24: replace > with >= in newest_in_largest_group in 7s build + 60s test
+MISSED   crates/rbitcoin-query/src/confirm_error.rs:25:9: replace <impl std::error::Error for ConfirmError>::source -> Option<&(dyn std::error::Error +'static)> with None in 121s build + 95s test
+MISSED   crates/rbitcoin-query/src/confirm_error.rs:57:9: replace ConfirmError::rules -> Option<&ConsensusError> with None in 10s build + 95s test
+MISSED   crates/rbitcoin-query/src/confirm_run/mod.rs:847:31: replace == with != in log_trust_ids in 119s build + 96s test
+MISSED   crates/rbitcoin-query/src/confirm_run/mod.rs:928:30: replace / with % in trust_log_fresh in 10s build + 97s test
+MISSED   crates/rbitcoin-query/src/confirm_run/mod.rs:928:30: replace / with * in trust_log_fresh in 10s build + 95s test
+MISSED   crates/rbitcoin-query/src/header_read.rs:78:13: delete match arm Err(ConfirmError::Rules(err)) in validate_header_hashed in 125s build + 96s test
+MISSED   crates/rbitcoin-query/src/index_writebehind.rs:119:24: replace - with + in track_index in 119s build + 95s test
+MISSED   crates/rbitcoin-query/src/index_writebehind.rs:144:13: replace && with || in index_tip_entry in 9s build + 98s test
+MISSED   crates/rbitcoin-query/src/index_writebehind.rs:144:51: replace || with && in index_tip_entry in 9s build + 96s test
+MISSED   crates/rbitcoin-query/src/index_writebehind.rs:230:33: replace > with >= in index_caught_up in 10s build + 95s test
+MISSED   crates/rbitcoin-query/src/index_writebehind.rs:272:21: replace + with * in seal_through in 9s build + 95s test
+MISSED   crates/rbitcoin-query/src/index_writebehind.rs:282:57: replace + with * in plan_window in 10s build + 95s test
+MISSED   crates/rbitcoin-query/src/index_writebehind.rs:290:20: replace > with == in plan_window in 10s build + 95s test
+MISSED   crates/rbitcoin-query/src/index_writebehind.rs:290:20: replace > with >= in plan_window in 9s build + 96s test
+MISSED   crates/rbitcoin-query/src/index_writebehind.rs:290:16: replace + with * in plan_window in 2s build + 12s test
+MISSED   crates/rbitcoin-query/src/index_writebehind.rs:293:13: replace += with *= in plan_window in 2s build + 13s test
