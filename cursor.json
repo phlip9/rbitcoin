@@ -1,14 +1,14 @@
 {
   "new_base": "4fe38d468d12c22aa86b687bcbc460f4adbcfd4e",
-  "new_skip": 3351,
-  "old_index": 17691,
-  "old_name": "crates/rbitcoin-rpc/src/methods/mempool.rs:1315:5: replace testmempoolaccept_package_precheck -> Option<Value> with Some(Default::default())",
-  "new_cap_used": false,
+  "new_skip": 3564,
+  "old_index": 18199,
+  "old_name": "crates/rbitcoin-store/src/address_head.rs:641:31: replace - with + in AddressHead::hop",
+  "new_cap_used": true,
   "run_id": "45374964607",
   "new_len": 11813,
   "old_len": 27112,
-  "new_remaining": 8462,
-  "old_remaining": 27112,
-  "completed_new": 0,
-  "completed_old": 0
+  "new_remaining": 8249,
+  "old_remaining": 26604,
+  "completed_new": 213,
+  "completed_old": 508
 }
