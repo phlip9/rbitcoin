@@ -1259,3 +1259,32 @@ MISSED   crates/rbitcoin-store/src/array_table.rs:734:9: replace ArrayTable::is_
 MISSED   crates/rbitcoin-store/src/array_table.rs:734:20: replace == with != in ArrayTable::is_empty in 2s build + 6s test
 MISSED   crates/rbitcoin-store/src/array_table.rs:1039:20: replace > with >= in ArrayTable::truncate in 2s build + 6s test
 MISSED   crates/rbitcoin-store/src/array_table.rs:1155:9: replace ArrayTable::flush_async -> Result<(), StoreError> with Ok(()) in 2s build + 6s test
+# 45787276020 1 c616c429805e4b918ec2f038fef9e0b5dcae89f2
+MISSED   crates/rbitcoin-net/src/peer.rs:6188:51: delete ! in ask_other_hb_for_block in 105s build + 59s test
+MISSED   crates/rbitcoin-net/src/peer.rs:6447:9: delete match arm NetError::Mutated(s) | NetError::Consensus(s) in accept_mutated_log_reason in 7s build + 60s test
+MISSED   crates/rbitcoin-net/src/peer.rs:6448:9: delete match arm NetError::Rules(err) in accept_mutated_log_reason in 7s build + 59s test
+MISSED   crates/rbitcoin-net/src/peer.rs:6449:9: delete match arm NetError::ConnectFailed{rules:Some(err), ..} in accept_mutated_log_reason in 8s build + 60s test
+MISSED   crates/rbitcoin-net/src/peer.rs:6826:40: replace match guard !net_error_is_store_not_found(&e) with true in apply_cmpct_accept in 8s build + 60s test
+MISSED   crates/rbitcoin-net/src/peer.rs:7289:44: replace && with || in on_tx in 8s build + 60s test
+MISSED   crates/rbitcoin-net/src/peer.rs:7963:58: replace + with - in PathWorkMemo::entries in 8s build + 59s test
+MISSED   crates/rbitcoin-net/src/peer.rs:8085:27: replace >= with < in PathWorkMemo::path_fails_claimed_pow in 7s build + 60s test
+MISSED   crates/rbitcoin-net/src/peer.rs:8101:21: replace == with != in PathWorkMemo::path_fails_claimed_pow in 7s build + 59s test
+MISSED   crates/rbitcoin-net/src/peer.rs:8152:36: replace match guard path.len() + 1 >= PENDING_WALK_LIMIT with false in memo_path_work in 15s build + 60s test
+MISSED   crates/rbitcoin-net/src/peer.rs:8152:47: replace + with * in memo_path_work in 15s build + 60s test
+MISSED   crates/rbitcoin-net/src/peer.rs:8168:22: replace + with * in memo_path_work in 7s build + 59s test
+MISSED   crates/rbitcoin-net/src/peer.rs:8172:31: replace + with * in memo_path_work in 7s build + 60s test
+MISSED   crates/rbitcoin-net/src/peer.rs:8394:34: replace && with || in any_header_path_meets_minwork in 7s build + 59s test
+MISSED   crates/rbitcoin-net/src/peer.rs:8394:21: replace != with == in any_header_path_meets_minwork in 7s build + 60s test
+MISSED   crates/rbitcoin-net/src/peer.rs:8433:33: replace || with && in header_path_above in 7s build + 59s test
+MISSED   crates/rbitcoin-net/src/peers.rs:67:9: replace + with - in compact_block_len in 106s build + 59s test
+MISSED   crates/rbitcoin-net/src/peers.rs:701:9: replace LivePeer::raw_sent -> u64 with 0 in 7s build + 61s test
+MISSED   crates/rbitcoin-net/src/peers.rs:716:9: replace LivePeer::held_front_queued -> bool with true in 7s build + 60s test
+MISSED   crates/rbitcoin-net/src/peers.rs:976:42: replace && with || in LivePeer::self_announce_link in 7s build + 60s test
+MISSED   crates/rbitcoin-net/src/peers.rs:1513:9: replace LivePeer::note_last_block with () in 7s build + 60s test
+MISSED   crates/rbitcoin-net/src/peers.rs:1601:22: replace > with == in LivePeer::claim_hb_body_fanout in 7s build + 59s test
+MISSED   crates/rbitcoin-net/src/peers.rs:1601:22: replace > with < in LivePeer::claim_hb_body_fanout in 7s build + 59s test
+MISSED   crates/rbitcoin-net/src/peers.rs:1601:22: replace > with >= in LivePeer::claim_hb_body_fanout in 7s build + 60s test
+MISSED   crates/rbitcoin-net/src/peers.rs:1641:9: replace LivePeer::inv_released_seen -> u64 with 0 in 7s build + 60s test
+MISSED   crates/rbitcoin-net/src/peers.rs:1740:27: replace && with || in LivePeer::block_download_owns in 7s build + 60s test
+MISSED   crates/rbitcoin-store/src/bdz.rs:102:12: replace ^ with | in splitmix64 in 2s build + 9s test
+MISSED   crates/rbitcoin-store/src/bdz.rs:102:17: replace >> with << in splitmix64 in 2s build + 9s test
