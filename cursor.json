@@ -1,14 +1,14 @@
 {
   "new_base": "4fe38d468d12c22aa86b687bcbc460f4adbcfd4e",
-  "new_skip": 4342,
-  "old_index": 19020,
-  "old_name": "crates/rbitcoin-store/src/binary_fuse8.rs:314:37: replace ^= with &= in BinaryFuse8::try_from_keys",
+  "new_skip": 4619,
+  "old_index": 19214,
+  "old_name": "crates/rbitcoin-store/src/block_queue.rs:61:9: replace QueuedBody::charge -> u64 with 0",
   "new_cap_used": true,
-  "run_id": "45787276020",
+  "run_id": "45971054207",
   "new_len": 11813,
   "old_len": 27112,
-  "new_remaining": 7471,
-  "old_remaining": 26372,
-  "completed_new": 0,
-  "completed_old": 740
+  "new_remaining": 7194,
+  "old_remaining": 26918,
+  "completed_new": 277,
+  "completed_old": 194
 }
