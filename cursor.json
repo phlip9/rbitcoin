@@ -1,14 +1,14 @@
 {
   "new_base": "4fe38d468d12c22aa86b687bcbc460f4adbcfd4e",
-  "new_skip": 4619,
-  "old_index": 19831,
-  "old_name": "crates/rbitcoin-store/src/create_loc.rs:373:63: replace == with != in CreateLoc::plan_range_batch",
+  "new_skip": 4914,
+  "old_index": 20204,
+  "old_name": "crates/rbitcoin-store/src/file.rs:428:16: replace < with > in handle_pwrite_all",
   "new_cap_used": true,
-  "run_id": "45971054207",
+  "run_id": "46125970467",
   "new_len": 11813,
   "old_len": 27112,
-  "new_remaining": 7194,
-  "old_remaining": 26495,
-  "completed_new": 0,
-  "completed_old": 617
+  "new_remaining": 6899,
+  "old_remaining": 26739,
+  "completed_new": 295,
+  "completed_old": 373
 }

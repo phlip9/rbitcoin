@@ -1502,3 +1502,51 @@ MISSED   crates/rbitcoin-store/src/create_loc.rs:224:22: replace < with > in Cre
 MISSED   crates/rbitcoin-store/src/create_loc.rs:362:24: replace || with && in CreateLoc::plan_range_batch in 3s build + 8s test
 MISSED   crates/rbitcoin-store/src/create_loc.rs:372:31: replace + with * in CreateLoc::plan_range_batch in 3s build + 8s test
 MISSED   crates/rbitcoin-store/src/create_loc.rs:373:23: replace < with > in CreateLoc::plan_range_batch in 3s build + 8s test
+# 46125970467 1 c616c429805e4b918ec2f038fef9e0b5dcae89f2
+MISSED   crates/rbitcoin-net/src/tip_accept.rs:216:5: replace lane_test_gate_enabled -> bool with true in 83s build + 50s test
+MISSED   crates/rbitcoin-net/src/tip_accept.rs:238:5: replace take_lane_exemption -> bool with false in 8s build + 51s test
+MISSED   crates/rbitcoin-net/src/tip_accept.rs:261:54: replace == with != in take_lane_exemption in 8s build + 50s test
+MISSED   crates/rbitcoin-net/src/tip_accept.rs:270:18: delete ! in lane_send_guard in 9s build + 52s test
+MISSED   crates/rbitcoin-net/src/tip_accept.rs:283:5: replace lane_send_guard -> Option<std::sync::MutexGuard<'static, ()>> with Some(MutexGuard::new()) in 7s build + 51s test
+MISSED   crates/rbitcoin-net/src/tip_accept.rs:283:5: replace lane_send_guard -> Option<std::sync::MutexGuard<'static, ()>> with Some(MutexGuard::from_iter([()])) in 7s build + 51s test
+MISSED   crates/rbitcoin-net/src/tip_accept.rs:283:5: replace lane_send_guard -> Option<std::sync::MutexGuard<'static, ()>> with Some(MutexGuard::new(())) in 7s build + 51s test
+MISSED   crates/rbitcoin-net/src/tip_accept.rs:283:5: replace lane_send_guard -> Option<std::sync::MutexGuard<'static, ()>> with Some(MutexGuard::from(())) in 7s build + 50s test
+MISSED   crates/rbitcoin-net/src/tip_accept.rs:315:5: replace lane_exclusive_notify -> &'static tokio::sync::Notify with Box::leak(Box::new(Default::default())) in 8s build + 51s test
+MISSED   crates/rbitcoin-net/src/tip_accept.rs:417:11: delete ! in hold_lane_mutex_for_tests in 9s build + 51s test
+MISSED   crates/rbitcoin-net/src/tip_accept.rs:551:10: replace == with != in release_lane_hold in 7s build + 51s test
+MISSED   crates/rbitcoin-net/src/tx_relay.rs:430:20: replace & with | in tx_has_bip68_time_lock in 7s build + 50s test
+MISSED   crates/rbitcoin-net/src/tx_relay.rs:430:20: replace & with ^ in tx_has_bip68_time_lock in 6s build + 50s test
+MISSED   crates/rbitcoin-net/src/tx_relay.rs:1434:22: replace != with == in <impl Drop for TemplateHold<'_>>::drop in 8s build + 50s test
+MISSED   crates/rbitcoin-net/src/tx_relay.rs:2444:25: replace match guard g.next_release > cursor with true in MempoolHub::take_released_invs in 6s build + 50s test
+MISSED   crates/rbitcoin-net/src/tx_relay.rs:2441:44: replace > with >= in MempoolHub::take_released_invs in 6s build + 49s test
+MISSED   crates/rbitcoin-net/src/tx_relay.rs:2444:40: replace > with >= in MempoolHub::take_released_invs in 6s build + 50s test
+MISSED   crates/rbitcoin-net/src/tx_relay.rs:2622:33: replace match guard store.is_confirmed_strong(fk).map_err(|_| ())? with false in MempoolHub::chain_create_fks in 12s build + 50s test
+MISSED   crates/rbitcoin-net/src/tx_relay.rs:3575:12: delete ! in MempoolHub::admit_with_waiting_spender in 12s build + 52s test
+MISSED   crates/rbitcoin-store/src/create_loc.rs:505:30: replace || with && in CreateLoc::pread_windows in 10s build + 84s test
+MISSED   crates/rbitcoin-store/src/create_loc.rs:505:26: replace < with == in CreateLoc::pread_windows in 11s build + 84s test
+MISSED   crates/rbitcoin-store/src/create_loc.rs:505:26: replace < with > in CreateLoc::pread_windows in 10s build + 85s test
+MISSED   crates/rbitcoin-store/src/create_loc.rs:505:26: replace < with <= in CreateLoc::pread_windows in 10s build + 84s test
+MISSED   crates/rbitcoin-store/src/create_loc.rs:505:54: replace != with == in CreateLoc::pread_windows in 11s build + 83s test
+MISSED   crates/rbitcoin-store/src/create_loc.rs:673:19: replace += with -= in extract_pairs_no_ovf in 10s build + 83s test
+MISSED   crates/rbitcoin-store/src/create_loc.rs:673:19: replace += with *= in extract_pairs_no_ovf in 11s build + 85s test
+MISSED   crates/rbitcoin-store/src/delta_loc.rs:152:17: replace || with && in strides_from_aligned_len in 99s build + 83s test
+MISSED   crates/rbitcoin-store/src/delta_loc.rs:156:10: replace > with == in strides_from_aligned_len in 11s build + 83s test
+MISSED   crates/rbitcoin-store/src/delta_loc.rs:156:10: replace > with >= in strides_from_aligned_len in 9s build + 84s test
+MISSED   crates/rbitcoin-store/src/delta_loc.rs:237:30: replace == with != in DeltaLoc::create in 15s build + 83s test
+MISSED   crates/rbitcoin-store/src/delta_loc.rs:286:30: replace == with != in DeltaLoc::open_above in 11s build + 84s test
+MISSED   crates/rbitcoin-store/src/delta_loc.rs:417:22: replace < with > in DeltaLoc::stage in 15s build + 84s test
+MISSED   crates/rbitcoin-store/src/delta_loc.rs:540:31: replace + with * in DeltaLoc::plan_range_batch in 10s build + 84s test
+MISSED   crates/rbitcoin-store/src/delta_loc.rs:541:23: replace < with > in DeltaLoc::plan_range_batch in 10s build + 83s test
+MISSED   crates/rbitcoin-store/src/delta_loc.rs:659:19: replace / with * in load_u16_ovf in 10s build + 84s test
+MISSED   crates/rbitcoin-store/src/delta_loc.rs:671:20: replace || with && in load_u16_ovf in 10s build + 84s test
+MISSED   crates/rbitcoin-store/src/delta_loc.rs:671:29: replace != with == in load_u16_ovf in 10s build + 83s test
+MISSED   crates/rbitcoin-store/src/delta_loc.rs:730:19: replace / with * in load_create_ovf in 11s build + 84s test
+MISSED   crates/rbitcoin-store/src/delta_loc.rs:743:20: replace || with && in load_create_ovf in 11s build + 84s test
+MISSED   crates/rbitcoin-store/src/delta_loc.rs:743:29: replace != with == in load_create_ovf in 10s build + 83s test
+MISSED   crates/rbitcoin-store/src/delta_loc.rs:778:46: replace + with - in migrate_create_ovf_v22_if_needed in 93s build + 84s test
+MISSED   crates/rbitcoin-store/src/delta_loc.rs:778:46: replace + with * in migrate_create_ovf_v22_if_needed in 10s build + 84s test
+MISSED   crates/rbitcoin-store/src/delta_loc.rs:790:19: replace / with % in migrate_create_ovf_v22_if_needed in 10s build + 83s test
+MISSED   crates/rbitcoin-store/src/delta_loc.rs:790:19: replace / with * in migrate_create_ovf_v22_if_needed in 9s build + 83s test
+MISSED   crates/rbitcoin-store/src/delta_loc.rs:798:20: replace || with && in migrate_create_ovf_v22_if_needed in 10s build + 84s test
+MISSED   crates/rbitcoin-store/src/delta_loc.rs:798:29: replace != with == in migrate_create_ovf_v22_if_needed in 10s build + 81s test
+MISSED   crates/rbitcoin-store/src/file.rs:59:25: replace match guard !parent.as_os_str().is_empty() with true in tmp_sidecar_path in 3s build + 7s test
